@@ -55,7 +55,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Newsletter />
+      {/* <Newsletter /> */}
     </motion.section>
   )
 }
