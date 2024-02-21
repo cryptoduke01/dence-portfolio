@@ -1,10 +1,9 @@
-import DenceImg from '../images/dence7.jpg';
+import DenceImg from '../images/denceTest.png';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import { useContext } from 'react';
 import { CursorContext } from '../context/CursorContext';
-import Newsletter from './NewsLetter';
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext)
@@ -55,7 +54,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <Newsletter /> */}
     </motion.section>
   )
 }
