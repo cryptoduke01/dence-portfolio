@@ -49,7 +49,7 @@ const Home = () => {
                 transition={transition1}
                 src={DenceImg} alt="Confidence Ezemba"
                 width={761}
-                height={1037}
+                height="auto"
               />
             </motion.div>
           </div>
