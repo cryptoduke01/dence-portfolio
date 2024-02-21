@@ -1,4 +1,4 @@
-import DenceImg from '../images/dence8.jpg';
+import DenceImg from '../images/denceTest.png';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import { useContext } from 'react';
