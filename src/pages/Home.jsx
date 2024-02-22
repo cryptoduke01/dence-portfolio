@@ -1,4 +1,4 @@
-import DenceImg from '../images/denceTest.png';
+import DenceImg from '../images/dence7.jpg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';

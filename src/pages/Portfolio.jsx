@@ -28,7 +28,7 @@ const Portfolio = () => {
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
             className='flex flex-col lg:items-start'>
-            <h1 className="h1">Modelling</h1>
+            {/* <h1 className="h1">Modelling</h1>
             <p className='mb-12 max-w-lg'>
               Lorem ipsum dolor sit amet, consectetur
               adipisicing elit. <b>Explicabo laborum dolore</b>
@@ -38,7 +38,7 @@ const Portfolio = () => {
               <br />
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, optio?
             </p>
-            <Link to={'/about'} className='btn mb-[30px] mx-auto lg:mx-0'>Read More</Link>
+            <Link to={'/about'} className='btn mb-[30px] mx-auto lg:mx-0'>Read More</Link> */}
           </motion.div>
           <div
             onMouseEnter={mouseEnterHandler}
