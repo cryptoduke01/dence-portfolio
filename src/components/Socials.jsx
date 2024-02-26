@@ -15,7 +15,7 @@ const Socials = () => {
       onMouseLeave={mouseLeaverHandler}
       className="hidden xl:flex ml-24"
     >
-      <ul className='flex gap-x-4'>
+      <ul className='flex gap-x-4 text-white'>
         <li>
           <a href="https:www.facebook.com/" target='_blank'>
             <ImAmazon />

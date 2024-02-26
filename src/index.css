@@ -31,19 +31,16 @@
 
 .bw-image {
   filter: grayscale(100%);
-  /* Set the image to black and white */
   transition: filter 3s ease;
-  /* Add transition for smooth effect */
 }
 
 .bw-image:hover {
   filter: grayscale(0%);
-  /* Change to color on hover */
 }
 
 img {
-  object-fit: cover; /* Image always covers the container */
-  object-position: center; /* Center the image within the container */
+  object-fit: cover; 
+  object-position: center; 
 }
 span{
   text-decoration: line-through;

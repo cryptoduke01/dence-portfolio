@@ -22,7 +22,7 @@ const Books = () => {
             <img
               src={BookImage}
               alt="Book cover"
-              className="object-cover h-full rounded-sm mb-6 lg:ml-48 lg:h-96 lg:left-4 drop-shadow-1xl"
+              className="object-cover h-full rounded-sm mb-6 lg:ml-20 lg:h-96 lg:left-4 drop-shadow-1xl"
             />
           </div>
           <div className="w-full">
@@ -35,7 +35,7 @@ const Books = () => {
               She was at war with her memory, but her past was the enemy.
               She was at war with her memory, but her past was the enemy.
             </p>
-            <button className="bg-[#0C262D] py-[18px] px-[50px] h-[66px] flex items-center justify-center text-base uppercase font-secondary font-semibold text-white mt-10">
+            <button className="btn mt-10 lg:w-full">
               Start reading
             </button>
           </div>
@@ -44,14 +44,13 @@ const Books = () => {
           <div className='bg-white border-l-4 border-primary rounded-sm shadow-md p-4 mt-8 lg:w-1/2'>
             <h3 className="text-xl font-bold mb-2 mt-2">Description</h3>
             <p className="text-gray-500 text-base">
-              The story takes place during Harry's sixth year at Hogwarts School of
-              Witchcraft and Wizardry, where he discovers more about Lord Voldemort's
-              past and the prophecy that foretells his defeat. With action-packed
-              sequences, shocking twists, and moments of heart-wrenching tragedy,
-              "Half-Blood Prince" is a must-read for any fan of the Harry Potter
-              series.
+              She was at war with her memory, but her past was the enemy.
+              She was at war with her memory, but her past was the enemy.
+              She was at war with her memory, but her past was the enemy.
+              She was at war with her memory, but her past was the enemy.
             </p>
           </div>
+
           <div className="bg-white border-l-4 border-primary rounded-sm shadow-md p-4 mt-8 w-full lg:w-1/2">
             <h3 className="text-xl font-bold mb-2">Reviews</h3>
             <div className="mt-2 border-t border-[#A3CED7] pt-4">
