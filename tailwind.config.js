@@ -25,6 +25,9 @@ export default {
         grey: '#484B4B',
         accent: '#EEF7F9',
       },
+      dropShadow: {
+        '1xl': '0 7px 7px rgb(32, 78, 81)',
+      }
     },
   },
   plugins: [],

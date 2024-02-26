@@ -38,13 +38,13 @@ const MobileNav = () => {
             <Link to={'/'}>Home</Link>
           </li>
           <li>
-            <Link to={'/about'}>About</Link>
-          </li>
-          <li>
-            <Link to={'/modelling'}>Modelling</Link>
+            <Link to={'/about'}>Bio</Link>
           </li>
           <li>
             <Link to={'/books'}>Books</Link>
+          </li>
+          <li>
+            <Link to={'/modelling'}>Modelling</Link>
           </li>
           <li>
             <Link to={'/newsletter'}>Newsletter</Link>

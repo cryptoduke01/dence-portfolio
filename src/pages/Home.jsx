@@ -32,7 +32,7 @@ const Home = () => {
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               Manhattan, New York, USA
             </p>
-            <Link to={'/about'} className='btn mb-[30px]'>
+            <Link to={'/bio'} className='btn mb-[30px]'>
               View   Bio
             </Link>
           </motion.div>
@@ -42,7 +42,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className='relative lg:-right-40 overflow-hidden'>
+              className='relative lg:-right-40'>
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 transition={transition1}
