@@ -24,7 +24,7 @@ const Books = () => {
             <img
               src={BookImage}
               alt="Book cover"
-              className="object-cover h-full rounded-sm mb-6 lg:ml-20 lg:h-96 lg:left-4 drop-shadow-1xl"
+              className="object-cover rounded-sm mb-6 lg:ml-20 lg:h-96 lg:left-4 drop-shadow-1xl"
             />
           </div>
           <div className="w-full">
