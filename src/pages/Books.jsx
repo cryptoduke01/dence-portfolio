@@ -33,9 +33,8 @@ const Books = () => {
               By Confidence .C. Ezemba
             </p>
             <p className="mt-4 mb-4 font-secondary">
-              She was at war with her memory, but her past was the enemy.
-              She was at war with her memory, but her past was the enemy.
-              She was at war with her memory, but her past was the enemy.
+              <b>Amara Amadi</b> is locked up in a hospital room with no memory of how she got there. Her shaky grip on reality is, however, the start of the mystery beginning to unfold around her.
+              <b> Amara</b> quickly grows suspicious of the hospital staff who refuse to answer her questions and sedate her when she demands answers.
             </p>
             <button className="btn mt-10 lg:w-full">
               Start reading
@@ -92,7 +91,7 @@ const Books = () => {
                   <div className="sm:mr-6"> {/* Adjust margin as needed */}
                     <h3 className="text-xl font-bold mb-2">Editors</h3>
                     <p className="text-gray-500 text-base">
-                      J.K. Rowling (author), Christopher Reath, Alena Gestabon, Steve Korg
+                      Confidence Ezemba, Wole Soyinka
                     </p>
                   </div>
                   <div className="sm:mr-6 mt-4 sm:mt-0">
