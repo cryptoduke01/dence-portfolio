@@ -1,5 +1,7 @@
 import BookImage from '../images/dyf.png';
-import reviewImage from '../images/dence7.jpg';
+import dailySun from '../images/daily.png';
+import vanguard from '../images/vanguard.png'
+import guardian from '../images/guardian.png'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
@@ -44,24 +46,38 @@ const Books = () => {
           <div className='bg-white border-l-4 border-primary rounded-sm shadow-md p-4 mt-8 lg:w-1/2'>
             <h3 className="text-xl font-bold mb-2 mt-2">Description</h3>
             <p className="text-gray-500 text-base">
-              She was at war with her memory, but her past was the enemy.
-              She was at war with her memory, but her past was the enemy.
-              She was at war with her memory, but her past was the enemy.
-              She was at war with her memory, but her past was the enemy.
+              Amara Amadi is locked up in a hospital room with no memory of how she got there. Her shaky grip on reality is, however, the start of the mystery beginning to unfold around her.
+              Amara quickly grows suspicious of the hospital staff who refuse to answer her questions and sedate her when she demands answers. The only explanation she is ... <a href="https://www.amazon.com/Dont-You-Forget-Gripping-Psychological/dp/B0CHLNR8LP/ref=sr_1_1?crid=2I2V0R68S616K&keywords=don%27t+you+forget+confidence+ezemba&qid=1706824989&sprefix=Don%27t+you+forget+confidence%2Caps%2C655&sr=8-1#detailBullets_feature_div">read More...</a>
             </p>
           </div>
 
           <div className="bg-white border-l-4 border-primary rounded-sm shadow-md p-4 mt-8 w-full lg:w-1/2">
             <h3 className="text-xl font-bold mb-2">Reviews</h3>
-            <div className="mt-2 border-t border-[#A3CED7] pt-4">
+            <div className="mt-2 border-t border-[#A3CED7] pt-2">
             </div>
-            <img
-              src={reviewImage}
-              className='w-14 rounded-full'
-            />
-            <h2 className='text-gray-700 font-bold'>New York Times</h2>
-            <p className='mt-2 text-gray-600 text-base'>"A piece of art..."</p>
+            <div className="flex items-center mt-4">
+              <img src={vanguard} className="w-14 rounded-full mr-4" />
+              <div>
+                <h2 className="text-gray-700 font-bold">Vanguard</h2>
+                <p className="mt-2 text-gray-600 text-base">"Utterly captivating and brimming with tension... A must-read"</p>
+              </div>
+            </div>
+            <div className="flex items-center mt-4">
+              <img src={guardian} className="w-14 rounded-full mr-4" />
+              <div>
+                <h2 className="text-gray-700 font-bold">The Guardian</h2>
+                <p className="mt-2 text-gray-600 text-base">"Unsettling, immersive, and brilliantly executed"</p>
+              </div>
+            </div>
+            <div className="flex items-center mt-4">
+              <img src={dailySun} className="w-14 rounded-full mr-4" />
+              <div>
+                <h2 className="text-gray-700 font-bold">Daily Sun</h2>
+                <p className="mt-2 text-gray-600 text-base">"Blurring the lines between memory and reality, this thriller is in a league of its own. A book that will leave you spellbound"</p>
+              </div>
+            </div>
           </div>
+
 
           <div className="container mx-auto px-4 py-8">
             <div className="flex flex-col lg:flex-row gap-8">
@@ -81,17 +97,17 @@ const Books = () => {
                   </div>
                   <div className="sm:mr-6 mt-4 sm:mt-0">
                     <h3 className="text-xl font-bold mb-2">Language</h3>
-                    <p className="text-gray-500 text-base">Standard English (USA & UK)</p>
+                    <p className="text-gray-500 text-base">English</p>
                   </div>
                   <div className="sm:mr-6 mt-4 sm:mt-0">
-                    <h3 className="text-xl font-bold mb-2">Format</h3>
+                    <h3 className="text-xl font-bold mb-2">Paperback</h3>
                     <p className="text-gray-500 text-base">
-                      Paperback, paper textured, full colour, 345 pages
+                      321 pages
                     </p>
                   </div>
                   <div className="mt-4 sm:mt-0">
                     <h3 className="text-xl font-bold mb-2">ISBN</h3>
-                    <p className="text-gray-500 text-base">987 3 32564455 B</p>
+                    <p className="text-gray-500 text-base">979-8218261771</p>
                   </div>
                 </div>
               </div>
