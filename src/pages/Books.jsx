@@ -57,22 +57,22 @@ const Books = () => {
             <div className="flex items-center mt-4">
               <img src={vanguard} className="w-14 rounded-full mr-4" />
               <div>
-                <h2 className="text-gray-700 font-bold">Vanguard</h2>
-                <p className="mt-2 text-gray-600 text-base">"Utterly captivating and brimming with tension... A must-read"</p>
+                <h2 className="font-bold">Vanguard</h2>
+                <p className="mt-0 text-gray-600 text-base">"Utterly captivating and brimming with tension... A must-read"</p>
               </div>
             </div>
             <div className="flex items-center mt-4">
               <img src={guardian} className="w-14 rounded-full mr-4" />
               <div>
-                <h2 className="text-gray-700 font-bold">The Guardian</h2>
-                <p className="mt-2 text-gray-600 text-base">"Unsettling, immersive, and brilliantly executed"</p>
+                <h2 className="font-bold">The Guardian</h2>
+                <p className="mt-0 text-gray-600 text-base">"Unsettling, immersive, and brilliantly executed"</p>
               </div>
             </div>
             <div className="flex items-center mt-4">
               <img src={dailySun} className="w-14 rounded-full mr-4" />
               <div>
-                <h2 className="text-gray-700 font-bold">Daily Sun</h2>
-                <p className="mt-2 text-gray-600 text-base">"Blurring the lines between memory and reality, this thriller is in a league of its own. A book that will leave you spellbound"</p>
+                <h2 className="font-bold">Daily Sun</h2>
+                <p className="mt-0 text-gray-600 text-base">"Blurring the lines between memory and reality, this thriller is in a league of its own. A book that will leave you spellbound"</p>
               </div>
             </div>
           </div>
@@ -89,13 +89,13 @@ const Books = () => {
               <div className="w-full lg:w-1/2">
                 <div className="border-l-4 p-4 shadow-md border-primary flex flex-col justify-end mb-8 mt-8">
                   <div className="sm:mr-6"> {/* Adjust margin as needed */}
-                    <h3 className="text-xl font-bold mb-2">Editors</h3>
+                    <h3 className="h3 text-xl font-bold mb-2">Editors</h3>
                     <p className="text-gray-500 text-base">
                       Confidence Ezemba, Wole Soyinka
                     </p>
                   </div>
                   <div className="sm:mr-6 mt-4 sm:mt-0">
-                    <h3 className="text-xl font-bold mb-2">Language</h3>
+                    <h3 className=" h3 text-xl font-bold mb-2">Language</h3>
                     <p className="text-gray-500 text-base">English</p>
                   </div>
                   <div className="sm:mr-6 mt-4 sm:mt-0">

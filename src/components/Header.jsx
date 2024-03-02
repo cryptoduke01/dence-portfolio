@@ -20,19 +20,19 @@ const Header = () => {
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaverHandler}
           >
-            <Link to={'/'} className='text-[#ffffff] hover:text-primary transition'>
+            <Link to={'/'} className='text-[#ffffff] hover:text-white transition'>
               Home
             </Link>
-            <Link to={'/bio'} className='text-[#ffffff] hover:text-primary transition'>
+            <Link to={'/bio'} className='text-[#ffffff] hover:text-white transition'>
               Bio
             </Link>
-            <Link to={'/books'} className='text-[#ffffff] hover:text-primary transition'>
+            <Link to={'/books'} className='text-[#ffffff] hover:text-white transition'>
               Books
             </Link>
-            <Link to={'/modelling'} className='text-[#ffffff] hover:text-primary transition'>
+            <Link to={'/modelling'} className='text-[#ffffff] hover:text-white transition'>
               Modelling
             </Link>
-            <Link to={'/newsletter'} className='text-[#ffffff] hover:text-primary transition'>
+            <Link to={'/newsletter'} className='text-[#ffffff] hover:text-white transition'>
               Newsletter
             </Link>
           </nav>
