@@ -32,7 +32,7 @@ const Books = () => {
             />
           </div>
           <div className="w-full">
-            <h2 className="font-secondary text-3xl font-bold mb-2">Don't You Forget - Psycho Thriller</h2>
+            <h2 className="font-secondary text-3xl font-bold mb-2">Don't You Forget - Psychological Thriller</h2>
             <p className="text-gray-500 text-base mb-4">
               By Confidence .C. Ezemba
             </p>
