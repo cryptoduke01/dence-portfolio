@@ -9,7 +9,7 @@ import { CursorContext } from './context/CursorContext';
 function App() {
   const { cursorVariants, cursorBG } = useContext(CursorContext);
   return (
-    <>
+  <>
       <Router>
         <Header />
         <AnimRoutes />

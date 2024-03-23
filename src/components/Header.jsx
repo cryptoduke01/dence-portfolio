@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
           <Link to={'/'}>
             <h1
-              className='h2 text-white font-bold max-w-[200px] font-primary'
+              className='h2 text-white font-bold max-w-[200px] font-secondary'
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaverHandler}
             >Confidence Ezemba</h1>
