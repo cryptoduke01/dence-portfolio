@@ -13,7 +13,11 @@ const Header = () => {
       <header className='bg-primary fixed w-full px-[30px] lg:px-[100px] z-30 h-[70px] lg:h-[70px] flex items-center'>
         <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
           <Link to={'/'}>
-            <h1 className='h2 text-white font-bold max-w-[200px] font-primary'>Confidence Ezemba</h1>
+            <h1
+              className='h2 text-white font-bold max-w-[200px] font-primary'
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaverHandler}
+            >Confidence Ezemba</h1>
           </Link>
           <nav
             className="hidden xl:flex gap-x-12 font-semibold"

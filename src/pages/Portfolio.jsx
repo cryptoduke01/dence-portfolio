@@ -7,6 +7,9 @@ import { transition1 } from '../transitions';
 import { useContext } from 'react';
 import { CursorContext } from '../context/CursorContext';
 import Carousel from './Carousel';
+import '../components/Slider.css';
+import dataSlider from '../components/dataSlider'
+
 
 const slides = [Image1, Image2, Image4];
 
@@ -58,12 +61,24 @@ const Portfolio = () => {
           </div>
         </div>
       </motion.section> */}
-      <Carousel autoSlide={true}>
+      {/* <Carousel autoSlide={true}>
         {[
           ...slides.map((s) => <img src={s} width={500} height={300} />),
 
         ]}
-      </Carousel>
+      </Carousel> */}
+
+      <div className="container-slider">
+        {dataSlider.map((obj, index) => {
+          return (
+            <div>
+              <img
+                src={`/images/dence2${index + 1}.jpg`}
+              />
+            </div>
+          )
+        })}
+      </div>
     </>
   )
 }
