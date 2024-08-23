@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'wood-dark': '#8B4513',
+      },
+      backgroundImage: {
+        'wood-texture': "url('/images/woodtexture.jpg')",
+      },
+    },
     fontFamily: {
       general: ['Raleway', 'sans-serif'],
       model: ['DM Serif Display', 'serif'],

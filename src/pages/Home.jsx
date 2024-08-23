@@ -13,7 +13,7 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section overflow-auto"
+      className="section overflow-x-hidden"
     >
 
       <div className="container mx-auto h-full relative">

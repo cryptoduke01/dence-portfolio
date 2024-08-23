@@ -15,7 +15,7 @@ const Header = () => {
           <Link to={'/'}>
             <h1
               className='h2 text-white font-bold max-w-[200px] font-secondary'
-              onMouseEntker={mouseEnterHandler}
+              onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaverHandler}
             >Confidence Ezemba</h1>
           </Link>

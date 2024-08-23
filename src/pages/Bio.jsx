@@ -14,7 +14,7 @@ const Bio = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}
       transition={transition1}
-      className="section overflow-auto"
+      className="section"
     >
       <div
         onMouseEnter={mouseEnterHandler}
@@ -22,7 +22,7 @@ const Bio = () => {
         className="container mx-auto lg:h-full relative"
       >
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
-          <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none overflow-none'>
+          <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none'>
             <img
               src={DenceImg}
               alt="Confidence Ezemba"
