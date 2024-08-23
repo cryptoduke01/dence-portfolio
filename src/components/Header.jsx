@@ -15,7 +15,7 @@ const Header = () => {
           <Link to={'/'}>
             <h1
               className='h2 text-white font-bold max-w-[200px] font-secondary'
-              onMouseEnter={mouseEnterHandler}
+              onMouseEntker={mouseEnterHandler}
               onMouseLeave={mouseLeaverHandler}
             >Confidence Ezemba</h1>
           </Link>
@@ -33,9 +33,7 @@ const Header = () => {
             <Link to={'/books'} className='text-[#ffffff] hover:text-white transition'>
               Books
             </Link>
-            <Link to={'/modelling'} className='text-[#ffffff] hover:text-white transition'>
-              Modelling
-            </Link>
+
             <Link to={'/newsletter'} className='text-[#ffffff] hover:text-white transition'>
               Newsletter
             </Link>

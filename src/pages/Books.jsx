@@ -88,7 +88,7 @@ const Books = () => {
                 <div className="sm:mr-6"> {/* Adjust margin as needed */}
                   <h3 className="h3 text-xl font-bold mb-2">Editors</h3>
                   <p className="text-gray-500 text-base">
-                    Confidence Ezemba, Wole Soyinka
+                    Confidence Ezemba
                   </p>
                 </div>
                 <div className="sm:mr-6 mt-4 sm:mt-0">
