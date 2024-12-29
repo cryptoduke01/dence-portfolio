@@ -80,7 +80,11 @@ const Home = () => {
               />
               <div className="p-4">
                 <h3 className="text-xl">Project Title 1</h3>
-                <p className="text-gray-400">Description of the project goes here.</p>
+                <p className="text-gray-300">Description of the project goes here.</p>
+                <div className="flex justify-between mt-4">
+                  <Link to="/project1" className="text-gray-300">View More</Link>
+                  <span className="text-gray-400">2023</span>
+                </div>
               </div>
             </motion.div>
             {/* Work Example 2 */}
@@ -98,7 +102,11 @@ const Home = () => {
               />
               <div className="p-4">
                 <h3 className="text-xl">Project Title 2</h3>
-                <p className="text-gray-400">Description of the project goes here.</p>
+                <p className="text-gray-300">Description of the project goes here.</p>
+                <div className="flex justify-between mt-4">
+                  <Link to="/project2" className="text-gray-300">View More</Link>
+                  <span className="text-gray-400">2022</span>
+                </div>
               </div>
             </motion.div>
             {/* Work Example 3 */}
@@ -116,7 +124,11 @@ const Home = () => {
               />
               <div className="p-4">
                 <h3 className="text-xl">Project Title 3</h3>
-                <p className="text-gray-400">Description of the project goes here.</p>
+                <p className="text-gray-300">Description of the project goes here.</p>
+                <div className="flex justify-between mt-4">
+                  <Link to="/project3" className="text-gray-300">View More</Link>
+                  <span className="text-gray-400">2021</span>
+                </div>
               </div>
             </motion.div>
           </div>
@@ -143,10 +155,10 @@ const Home = () => {
               exit={{ opacity: 0, y: 50 }}
               transition={transition1}
               whileHover={{ y: -10, scale: 1.05 }}
-              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform h-[270px] flex flex-col justify-center items-center"
             >
-              <h3 className="text-xl font-bold mb-2">Modelling</h3>
-              <p className="text-white">Experience in fashion, commercial, and lifestyle modeling.</p>
+              <h3 className="text-xl font-bold mb-2 text-center">Modelling</h3>
+              <p className="text-white text-center">I have extensive experience in fashion, commercial, and lifestyle modeling. I’ve worked with top photographers and brands to create stunning visuals.</p>
             </motion.div>
 
             {/* Writing Card */}
@@ -156,10 +168,10 @@ const Home = () => {
               exit={{ opacity: 0, y: 50 }}
               transition={transition1}
               whileHover={{ y: -10, scale: 1.05 }}
-              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform h-[270px] flex flex-col justify-center items-center"
             >
-              <h3 className="text-xl font-bold mb-2">Writing</h3>
-              <p className="text-white">Creative writing, storytelling, and content creation.</p>
+              <h3 className="text-xl font-bold mb-2 text-center">Writing</h3>
+              <p className="text-white text-center">With a passion for storytelling, I specialize in creative writing, content creation, and blog writing that resonates with audiences and inspires action.</p>
             </motion.div>
 
             {/* Public Speaking Card */}
@@ -169,14 +181,15 @@ const Home = () => {
               exit={{ opacity: 0, y: 50 }}
               transition={transition1}
               whileHover={{ y: -10, scale: 1.05 }}
-              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform h-[270px] flex flex-col justify-center items-center"
             >
-              <h3 className="text-xl font-bold mb-2">Public Speaking</h3>
-              <p className="text-white">Engaging and inspiring public speaking sessions.</p>
+              <h3 className="text-xl font-bold mb-2 text-center">Public Speaking</h3>
+              <p className="text-white text-center">I deliver engaging and inspiring public speaking sessions, focusing on motivating and empowering audiences to take action and achieve their goals.</p>
             </motion.div>
           </div>
         </div>
       </section>
+
 
       {/* Let's Collaborate Section with White and Black Gradient */}
       <section className="py-20 bg-gradient-to-r from-white to-black text-white text-center">
