@@ -32,7 +32,7 @@ const Books = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: '100%' }}
         transition={transition1}
-        className="section overflow-x-auto py-16 md:py-24"
+        className="section overflow-x-hidden py-16 md:py-24"
       >
         <div className="container mx-auto px-4 py-8 max-w-6xl"
           onMouseEnter={mouseEnterHandler}
