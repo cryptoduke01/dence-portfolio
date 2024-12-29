@@ -123,43 +123,69 @@ const Home = () => {
         </div>
       </section>
 
-      {/* What I Do Section with Gradient */}
-      <section className="py-20 bg-gradient-to-r from-black via-white to-black text-white">
+      {/* What I Do Section with Standing Cards */}
+      <section className="py-20 bg-gradient-to-r from-grey to-black text-white">
         <div className="container mx-auto text-center">
           <motion.h2
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={transition1}
-            className="text-3xl mb-8"
+            className="text-3xl font-bold mb-8"
           >
             What I Do
           </motion.h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="service-card">
-              <h3 className="text-xl mb-2">Modeling</h3>
-              <p className="text-gray-400">Experience in fashion, commercial, and lifestyle modeling.</p>
-            </div>
-            <div className="service-card">
-              <h3 className="text-xl mb-2">Writing</h3>
-              <p className="text-gray-400">Creative writing, storytelling, and content creation.</p>
-            </div>
-            <div className="service-card">
-              <h3 className="text-xl mb-2">Public Speaking</h3>
-              <p className="text-gray-400">Engaging and inspiring public speaking sessions.</p>
-            </div>
+            {/* Modeling Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
+              transition={transition1}
+              whileHover={{ y: -10, scale: 1.05 }}
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+            >
+              <h3 className="text-xl font-bold mb-2">Modelling</h3>
+              <p className="text-white">Experience in fashion, commercial, and lifestyle modeling.</p>
+            </motion.div>
+
+            {/* Writing Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
+              transition={transition1}
+              whileHover={{ y: -10, scale: 1.05 }}
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+            >
+              <h3 className="text-xl font-bold mb-2">Writing</h3>
+              <p className="text-white">Creative writing, storytelling, and content creation.</p>
+            </motion.div>
+
+            {/* Public Speaking Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
+              transition={transition1}
+              whileHover={{ y: -10, scale: 1.05 }}
+              className="service-card bg-grey p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform transform"
+            >
+              <h3 className="text-xl font-bold mb-2">Public Speaking</h3>
+              <p className="text-white">Engaging and inspiring public speaking sessions.</p>
+            </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Let's Collaborate Section with Different Black Shade */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-black text-white text-center">
+      {/* Let's Collaborate Section with White and Black Gradient */}
+      <section className="py-20 bg-gradient-to-r from-white to-black text-white text-center">
         <motion.h2
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={transition1}
-          className="text-3xl mb-4"
+          className="text-3xl font-bold mb-4"
         >
           Let's Collaborate
         </motion.h2>
@@ -168,7 +194,7 @@ const Home = () => {
           href="mailto:your-email@example.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn w-40 mx-auto bg-gradient-to-r from-black to-gray-900 hover:from-white hover:to-black"
+          className="btn w-52 h-12 mx-auto bg-black hover:bg-white hover:text-black"
         >
           Contact Me
         </a>
@@ -176,7 +202,7 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="bg-black text-white py-6 text-center">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Confidence Ezemba. All rights reserved.</p>
       </footer>
     </>
   );
