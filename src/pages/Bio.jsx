@@ -1,13 +1,12 @@
 import DenceImg from '../images/collage.jpg';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import { useContext } from 'react';
 import { CursorContext } from '../context/CursorContext';
 
-
 const Bio = () => {
   const { mouseEnterHandler, mouseLeaverHandler } = useContext(CursorContext);
+
   return (
     <motion.section
       initial={{ opacity: 0, y: '100%' }}
@@ -43,13 +42,17 @@ const Bio = () => {
               From a young age, Confidence has been drawn to the art of storytelling, using writing as a creative outlet to explore the depths of the human psyche and the complexities of the human experience.
               <br />
               <br />
-              He hopes to continue using storytelling as a means of inspiring others to think critically about the world around them.            </p>
-            <Link to={'/modelling'} className='btn'>View Portfolio</Link>
+              He hopes to continue using storytelling as a means of inspiring others to think critically about the world around them.
+            </p>
+            {/* Open Portfolio in a New Tab */}
+            <a href="https://www.instagram.com/drdnce/" target="_blank" rel="noopener noreferrer" className='btn'>
+              View Portfolio
+            </a>
           </motion.div>
         </div>
       </div>
     </motion.section>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
